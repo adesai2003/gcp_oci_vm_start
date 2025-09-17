@@ -1,9 +1,9 @@
 # VM Lifecycle on GCP and OCI — Tutorial
 
 ## Video
-Loom for Oracle: <[paste link](https://www.loom.com/share/672718a4976848e489915177dad642a4?sid=a22cc99b-40eb-4029-ac9e-bcbcb0c0c702)>
+Loom for Oracle: <[Oracle](https://www.loom.com/share/672718a4976848e489915177dad642a4?sid=a22cc99b-40eb-4029-ac9e-bcbcb0c0c702)>
 
-Loon for Google Cloud 
+Loom for Google Cloud: <[Google Cloud](https://www.loom.com/share/a8c8fb52462748e8b4a154b66217c46d?sid=ed58b8b3-cd6f-412e-88e7-f4a7914db586)>
 
 ## Prereqs
 - Cloud access to GCP and OCI
@@ -14,13 +14,13 @@ Loon for Google Cloud
 ## Google Cloud (GCP)
 ### Create
 1. Console → Compute Engine → Create instance
-2. Region/zone: <your choice>
-3. Machine type: <smallest available/free-eligible>
+2. Region/zone: <East(Northern Virgina)>
+3. Machine type: <e2-micro>
 4. Image: Ubuntu LTS
 5. Boot disk: default minimal
 6. Network: default VPC; ephemeral public IP
 
-![GCP create](images/gcp_create.png)
+![GCP create](images/Screenshot 2025-09-17 at 3.06.08 PM.png)
 
 ### Start/Stop
 - Start: <state shows RUNNING>
