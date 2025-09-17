@@ -1,7 +1,9 @@
 # VM Lifecycle on GCP and OCI — Tutorial
 
 ## Video
-Loom/Zoom: <paste link>
+Loom for Oracle: <[paste link](https://www.loom.com/share/672718a4976848e489915177dad642a4?sid=a22cc99b-40eb-4029-ac9e-bcbcb0c0c702)>
+
+Loon for Google Cloud 
 
 ## Prereqs
 - Cloud access to GCP and OCI
