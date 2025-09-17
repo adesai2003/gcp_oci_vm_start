@@ -20,7 +20,7 @@ Loom for Google Cloud: <[Google Cloud](https://www.loom.com/share/a8c8fb52462748
 5. Boot disk: default minimal
 6. Network: default VPC; ephemeral public IP
 
-![GCP create](images/Screenshot 2025-09-17 at 3.06.08 PM.png)
+![GCP create](images/GCI_create.png)
 
 ### Start/Stop
 - Start: <state shows RUNNING>
