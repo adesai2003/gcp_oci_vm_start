@@ -20,51 +20,59 @@ Loom for Google Cloud: <[Google Cloud](https://www.loom.com/share/a8c8fb52462748
 5. Boot disk: default minimal
 6. Network: default VPC; ephemeral public IP
 
+### Create
+
 ![GCP create](images/GCI_create.png)
 
 ### Start/Stop
-- Start: <state shows RUNNING>
-- Stop: <state shows TERMINATED/STOPPED>
 
-![GCP running](images/gcp_running.png)
+![GCP running](images/GCI_running.png)
 
+![GCP stopped](images/GCI_stopped.png)
 ### Delete
 - Delete instance and verify no disks/IPs remain
 
-![GCP cleaned](images/gcp_clean.png)
+![GCP cleaned](images/GCI_terminate.png)
 
 ---
 
 ## Oracle Cloud (OCI)
 ### Create
-1. Compartment: <name>
+1. Compartment: <aaravdesai (root)>
 2. Networking: VCN with Internet Connectivity (defaults)
-3. Shape: <smallest/free-eligible>
-4. Image: Ubuntu (or Oracle Linux)
+3. Shape: <sVM.Standard.E2.1.Micro>
+4. Image:  Oracle Linux
 5. Public IP: ephemeral
 6. Boot volume: default minimal
+
+### Create
 
 ![OCI create](images/oci_create.png)
 
 ### Start/Stop
-- Start: <state shows RUNNING>
-- Stop: <state shows STOPPED>
 
 ![OCI running](images/oci_running.png)
+
+![OCI stopped](images/oci_stopped.png)
 
 ### Terminate
 - Terminate and delete boot volume; verify cleanup
 
-![OCI cleaned](images/oci_clean.png)
+![OCI terminate](images/oci_terminate.png)
 
 ---
 
 ## Reflections
 ### Similarities
-- <brief bullets>
+- both have SaaS
+- both offer virtual private cloud networks
+- both have data centers across regions
+- both have block, object, and file storage available 
 
 ### Differences
-- <brief bullets>
+- Oracle is cheaper at $2 a month vs Google at $8 a month
+- Oracle is strong in enterprise workloads, Google is stronger in analytics
+- Oracle is known for bare metal servers, Google is known for custom machine type
 
 ### Preference (OCI vs GCP) and Why
-- <one short paragraph>
+- I prefer OCI. OCI offers bare-metal performance, predictable low  pricing, and deep integration with Oracle Database. Unlike Google, OCI was built with enterprise workloads in mind, making it reliable for running applications at scale. OCI is also easier for a newcomer to understand. 
