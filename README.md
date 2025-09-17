@@ -15,7 +15,7 @@ Loom for Google Cloud: <[Google Cloud](https://www.loom.com/share/a8c8fb52462748
 ### Create
 1. Console → Compute Engine → Create instance
 2. Region/zone: <East(Northern Virgina)>
-3. Machine type: <e2-micro>
+3. Machine type: <e2 micro(2 vCPU, 1core, 1GB)>
 4. Image: Ubuntu LTS
 5. Boot disk: default minimal
 6. Network: default VPC; ephemeral public IP
@@ -40,7 +40,7 @@ Loom for Google Cloud: <[Google Cloud](https://www.loom.com/share/a8c8fb52462748
 ### Create
 1. Compartment: <aaravdesai (root)>
 2. Networking: VCN with Internet Connectivity (defaults)
-3. Shape: <sVM.Standard.E2.1.Micro>
+3. Shape: <VM.Standard.E2.1.Micro>
 4. Image:  Oracle Linux
 5. Public IP: ephemeral
 6. Boot volume: default minimal
